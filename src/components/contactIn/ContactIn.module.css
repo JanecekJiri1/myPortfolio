@@ -1,0 +1,25 @@
+.contactInStyles {
+  width: 75vw;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.contactInStyles a {
+  text-decoration: none;
+  color: black;
+}
+.contactInStyles p {
+  margin-left: 5px;
+  padding-bottom: 2px;
+}
+.contactInStyles :hover p {
+  color: aliceblue;
+  transition: 0.3s;
+  text-decoration: underline rgba(0, 0, 0, 0.856) 2px;
+}
+
+.contactInStyles span {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}

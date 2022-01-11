@@ -1,0 +1,46 @@
+import classes from "./ContactPage.module.css";
+import { FaEnvelope, FaFacebookF, FaMobileAlt, FaLinkedinIn } from "react-icons/fa";
+const contactPage = () => {
+  return (
+    <div className={classes.contactPageStyles}>
+      <h2 className="contactText"> You can conntact me by:</h2>
+      <ul className="contactList">
+        <li>
+          <a>
+            <div className={classes.icons}>
+              <FaEnvelope className={classes.envelop} />
+            </div>
+            <strong>Email:</strong>
+            <span> janec.jiri@email.cz</span>
+          </a>
+        </li>
+        <li>
+          <a>
+            <div className={classes.icons}>
+              <FaMobileAlt />
+            </div>
+            <strong>Phone:</strong> <span className={classes.phone}>+420 703 503 660</span>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.facebook.com/jiri.janecek.712/">
+            <div className={classes.icons}>
+              <FaFacebookF />
+            </div>
+            <strong>Facebook: </strong>Jiří Janeček
+          </a>
+        </li>
+        {/* <li>
+          <a target="_blank" href="https://www.linkedin.com/in/jiří-janeček-63a521147/">
+            <div className={classes.icons}>
+              <FaLinkedinIn />
+            </div>
+            <strong>Linkedin:</strong> Jiří Janeček
+          </a>
+        </li> */}
+      </ul>
+    </div>
+  );
+};
+
+export default contactPage;

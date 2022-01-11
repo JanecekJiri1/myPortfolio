@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgba(0, 0, 0, 0.99);
+}
+
+.app {
+  margin: 5% auto;
+  width: 75vw;
+
+  max-width: 1920px;
+
+  height: auto;
+
+  border: 1px solid rgba(0, 0, 0, 0.712);
+  box-shadow: 1px 1px 0 0 white;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.24);
+  background-image: linear-gradient(980deg, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.692) 70%);
+  color: rgb(7, 5, 14);
+}
+
+@media only screen and (max-width: 1200px) {
+  .app {
+    width: 85vw;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .app {
+    width: 90vw;
+  }
+}
+@media only screen and (max-width: 925px) {
+  .app {
+    width: 95vw;
+    background-image: linear-gradient(980deg, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.6) 70%);
+  }
+}
+@media only screen and (max-width: 780px) {
+  .app {
+    width: 100vw;
+    background-image: linear-gradient(980deg, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5) 70%);
+  }
+}
+@media only screen and (max-width: 420px) {
+  .app {
+    min-width: 310px;
+    margin: 0 auto;
+    border-radius: 0px;
+  }
+}

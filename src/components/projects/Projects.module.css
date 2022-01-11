@@ -1,0 +1,100 @@
+.projectsStyles {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 10% 0;
+  border-top: 1px solid black;
+  font-size: 1.4rem;
+}
+
+.projectsStyles h2 {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+.topLine {
+  margin: 20px 0;
+}
+
+.topLine,
+.bottomLine {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  width: 450px;
+  height: 300px;
+  margin: 20px 0 10px 0;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.box:hover {
+  box-shadow: -3px -3px 10px rgb(255, 255, 255);
+  transition: all 0.3s;
+  width: 455px;
+  height: 305px;
+}
+
+.pageOpen:hover {
+  font-size: 1.7rem;
+  transition: all 0.3s;
+  text-decoration: underline;
+}
+
+.gitOpen {
+  margin-top: 5px;
+}
+.gitOpen:hover {
+  text-decoration: underline;
+  font-size: 1.7rem;
+  transition: all 0.3s;
+}
+
+/********* media queries  ***************/
+
+@media only screen and (max-width: 1250px) {
+  .box {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  .box {
+    width: 410px;
+    height: 270px;
+  }
+  .box:hover {
+    width: 415px;
+    height: 275px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .projectsStyles {
+    width: 100vw;
+    overflow: hidden;
+  }
+  .box {
+    margin-top: 0;
+  }
+
+  .projectsBox {
+    margin-top: 30px;
+  }
+
+  .topLine {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .bottomLine {
+    display: flex;
+    justify-content: center;
+  }
+}
