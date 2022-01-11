@@ -17,6 +17,9 @@ const Navigation = () => {
             <Link to="/">About</Link>
           </li>
           <li className={classes.liNavigation}>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li className={classes.liNavigation}>
             <Link to="/contact">Contact</Link>
           </li>
         </ul>

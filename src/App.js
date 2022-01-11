@@ -4,6 +4,7 @@ import "./App.css";
 import Navigation from "./navigation/Navigation";
 
 import MainPage from "./pages/MainPage";
+import ProjektsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
       <Switch>
         <Route path="/" exact={true}>
           <MainPage />
+        </Route>
+        <Route path="/projects">
+          <ProjektsPage />
         </Route>
         <Route path="/contact">
           <ContactPage />
