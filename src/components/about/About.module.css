@@ -1,15 +1,9 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
 .aboutPageStyles {
   margin: 10px 0;
-  padding-top: 50px;
+  padding: 40px 0;
   width: 75vw;
   display: grid;
-  grid-template-columns: 40% 50%;
+  grid-template-columns: 35% 50%;
   justify-content: space-around;
 }
 
@@ -18,7 +12,7 @@
 .leftSideFoto {
   display: flex;
   justify-content: flex-end;
-  margin: 20px 10px;
+  margin: 10px 10px;
 }
 
 .myPhotoStyles {
@@ -61,8 +55,8 @@
   min-width: 95px;
   height: 35px;
   margin: 20px 0;
-  background-color: cornsilk;
-  background-color: rgba(231, 227, 214, 0.548);
+
+  background-color: rgba(70, 69, 66, 0.363);
   border-radius: 25px;
   cursor: pointer;
 }

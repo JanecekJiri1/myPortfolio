@@ -10,7 +10,6 @@ const contactPage = () => {
             <div className={classes.icons}>
               <FaEnvelope className={classes.envelop} />
             </div>
-            <strong>Email:</strong>
             <span> janec.jiri@email.cz</span>
           </a>
         </li>
@@ -19,7 +18,7 @@ const contactPage = () => {
             <div className={classes.icons}>
               <FaMobileAlt />
             </div>
-            <strong>Phone:</strong> <span className={classes.phone}>+420 703 503 660</span>
+            <span className={classes.phone}>+420 703 503 660</span>
           </a>
         </li>
         <li>
@@ -27,7 +26,7 @@ const contactPage = () => {
             <div className={classes.icons}>
               <FaFacebookF />
             </div>
-            <strong>Facebook: </strong>Jiří Janeček
+            Jiří Janeček
           </a>
         </li>
         {/* <li>

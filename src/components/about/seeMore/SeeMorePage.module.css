@@ -1,12 +1,10 @@
 .seeMorePage {
-  /* background: rgba(255, 255, 255, 0.452);
-  background-image: linear-gradient(680deg, rgb(112, 113, 116, 0.9), rgb(241, 245, 247, 0.8), rgb(112, 113, 116, 0.9)); */
-  background-image: linear-gradient(680deg, rgb(112, 113, 116, 0.9), rgb(241, 245, 247, 0.8), rgba(0, 0, 0, 0.534));
+  background-image: linear-gradient(680deg, rgba(112, 113, 116, 0.329), rgb(241, 245, 247, 0.8), rgba(0, 0, 0, 0.068));
   box-shadow: 2px 2px 5px black;
   padding: 40px 0;
   border-radius: 25px;
-  border: 2px solid rgb(71, 73, 78);
-  width: 99%;
+  /* border: 2px solid rgb(71, 73, 78); */
+  width: 69vw;
   margin: 0 auto;
 }
 

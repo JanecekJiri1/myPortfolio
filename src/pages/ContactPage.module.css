@@ -3,10 +3,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 80vh;
+  height: 55vh;
   border-radius: 0 0 25px 25px;
-  padding-bottom: 20vh;
-  margin-top: 10%;
 }
 
 .contactPageStyles h2 {
@@ -14,16 +12,11 @@
 }
 
 .contactPageStyles a {
-  text-decoration: none;
-  color: black;
   display: flex;
   white-space: nowrap;
 }
 .contactPageStyles ul {
   width: 300px;
-}
-.contactPageStyles strong {
-  margin-right: 5px;
 }
 
 .contactPageStyles li {
@@ -42,11 +35,11 @@
 /* icons styles */
 
 .icons {
-  color: rgb(128, 123, 123);
-  margin-right: 5px;
-  border: 1px solid black;
-  width: 25px;
-  height: 25px;
+  color: rgb(22, 21, 21);
+  margin-right: 10px;
+  padding-top: 2px;
+  width: 30px;
+  height: 30px;
   text-align: center;
 }
 
