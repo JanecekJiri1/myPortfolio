@@ -10,7 +10,6 @@
 .projectsStyles h2 {
   margin: 40px 0;
   font-size: 2rem;
-  min-width: 420px;
 }
 
 .boxies {
@@ -51,11 +50,11 @@
   transform: scale(1.05);
 }
 
-.ulNavigation img {
-  cursor: pointer;
-  margin: 5px;
-}
-.flag2 {
-  cursor: pointer;
-  margin-left: 5px;
+/****** media query  *************/
+@media only screen and (max-width: 700px) {
+  .box {
+    width: 350px;
+
+    height: 200px;
+  }
 }

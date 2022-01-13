@@ -21,13 +21,12 @@ i18n
     backend: {
       loadPath: "/assets/locales/{{lng}}/translation.json",
     },
+    react: { useSuspense: false },
   });
 
 ReactDOM.render(
-  <Suspense fallback>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </Suspense>,
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
   document.getElementById("root")
 );
