@@ -1,5 +1,5 @@
 .projectsStyles {
-  width: 75vw;
+  /* width: 85vw; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,13 +10,18 @@
 .projectsStyles h2 {
   margin: 40px 0;
   font-size: 2rem;
+  min-width: 420px;
+}
+
+.boxies {
+  margin: 25px 15px;
 }
 
 .box {
   width: 450px;
-  max-width: 457px;
+
   height: 300px;
-  max-height: 306px;
+
   margin: 20px 0 10px 0;
   cursor: pointer;
   border: 1px solid black;
@@ -29,7 +34,7 @@
 }
 
 .topLine > * {
-  flex: 1 1 50%;
+  flex: 1 1 45%;
 }
 
 .projectsStyles h3 {

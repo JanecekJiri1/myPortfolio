@@ -7,6 +7,7 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import HttpApi from "i18next-http-backend";
+import { Suspense } from "react/cjs/react.production.min";
 
 i18n
   .use(initReactI18next)
@@ -20,12 +21,13 @@ i18n
     backend: {
       loadPath: "/assets/locales/{{lng}}/translation.json",
     },
-    react: { useSuspense: false },
   });
 
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+  <Suspense fallback>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </Suspense>,
   document.getElementById("root")
 );

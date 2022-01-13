@@ -27,12 +27,8 @@ const Navigation = () => {
           <li className={classes.liNavigation}>
             <Link to="/contact">{t("navigation_contact")}</Link>
           </li>
-          <li>
-            <img src={csFlag} alt="czech flag icon" onClick={() => i18next.changeLanguage("cs")} className={classes.flag} />
-          </li>
-          <li>
-            <img src={enFlag} alt="english flag icon" onClick={() => i18next.changeLanguage("en")} className={classes.flag} />{" "}
-          </li>
+          <img src={csFlag} alt="czech flag icon" onClick={() => i18next.changeLanguage("cs")} className={classes.flag} />
+          <img src={enFlag} alt="english flag icon" onClick={() => i18next.changeLanguage("en")} className={classes.flag} />{" "}
         </ul>
       </div>
     </div>

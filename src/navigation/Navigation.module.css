@@ -4,6 +4,7 @@
   font-size: 1.6rem;
   font-weight: bold;
   border-radius: 25px 25px 0 0;
+  min-width: 440px;
 }
 
 /* left size inside navigation - name */
@@ -18,16 +19,22 @@
   text-decoration: underline;
 }
 
+.myName {
+  padding-bottom: 10px;
+}
+
 /* right size inside navigation links */
 .right-size {
   width: 50%;
+  margin-right: 5%;
+  white-space: nowrap;
 }
 
 .ulNavigation {
   list-style: none;
   display: flex;
   justify-content: end;
-  margin: 20px;
+  margin: 15px 0;
 }
 
 .liNavigation {
@@ -37,14 +44,27 @@
   text-decoration: underline;
 }
 
-.liNavigation:last-child {
-  margin: 0 10% 0 0;
+.flag {
+  cursor: pointer;
+  margin-right: 5px;
 }
 
 /********** query media  ****************/
+@media only screen and (max-width: 715px) {
+  .myName {
+    display: none;
+  }
+  .right-size {
+    width: 100%;
+    margin-right: 5%;
+  }
+  .left-size {
+    display: none;
+  }
+}
 @media only screen and (max-width: 400px) {
   .navigation {
-    min-width: 305px;
+    min-width: 350px;
     font-size: 1.4rem;
   }
 
@@ -52,16 +72,7 @@
   .liNavigation:last-child {
     margin-right: 10px;
   }
-
-  .myName a {
-    color: rgb(68, 68, 68);
+  .flag {
+    margin-left: 2px;
   }
-  .left-size {
-    margin-left: 3%;
-  }
-}
-
-.flag {
-  cursor: pointer;
-  margin-left: 5px;
 }

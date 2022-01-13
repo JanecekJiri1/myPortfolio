@@ -11,7 +11,7 @@ const Projects = () => {
     <div className={classes.projectsStyles}>
       <h2>{t("projekts_")}</h2>
       <div className={classes.topLine}>
-        <div>
+        <div className={classes.boxies}>
           <a href="https://lp-noawesome.herokuapp.com/" target="_blank" rel="noreferrer">
             <h3> Landing page </h3>
             <div>
@@ -22,7 +22,7 @@ const Projects = () => {
             <h3 className={classes.gitOpen}>GitHub code</h3>
           </a>
         </div>
-        <div>
+        <div className={classes.boxies}>
           <a href=" https://elektronic-shop.herokuapp.com/" target="_blank" rel="noreferrer">
             <h3>Commerce with elektronic</h3>
 
@@ -35,7 +35,7 @@ const Projects = () => {
           </a>
         </div>
 
-        <div>
+        <div className={classes.boxies}>
           <a href="https://food-order-portfolio.herokuapp.com/" target="_blank" rel="noreferrer">
             <h3> Food order app </h3>
             <div>

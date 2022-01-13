@@ -10,15 +10,16 @@ const ContactPage = () => {
       <h2 className="contactText"> {t("contact_")} </h2>
       <ul className="contactList">
         <li>
-          <a>
+          <a href="mailto:janec.jiri@email.cz" target="_blank">
             <div className={classes.icons}>
               <FaEnvelope className={classes.envelop} />
             </div>
+
             <span> janec.jiri@email.cz</span>
           </a>
         </li>
         <li>
-          <a>
+          <a href="tel:703503660">
             <div className={classes.icons}>
               <FaMobileAlt />
             </div>
