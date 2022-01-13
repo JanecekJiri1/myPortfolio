@@ -55,8 +55,9 @@
   min-width: 95px;
   height: 35px;
   margin: 20px 0;
+  background-color: rgba(231, 227, 214, 0.548);
+  border: 1px solid rgba(0, 0, 0, 0.644);
 
-  background-color: rgba(70, 69, 66, 0.363);
   border-radius: 25px;
   cursor: pointer;
 }

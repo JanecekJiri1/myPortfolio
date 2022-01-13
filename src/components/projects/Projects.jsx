@@ -3,10 +3,13 @@ import LPage from "../../assets/Lp2.png";
 import ShoppE from "../../assets/shopp.png";
 import Food from "../../assets/food2a.png";
 
+import { useTranslation } from "react-i18next";
+
 const Projects = () => {
+  const { t } = useTranslation();
   return (
     <div className={classes.projectsStyles}>
-      <h2>Projects</h2>
+      <h2>{t("projekts_")}</h2>
       <div className={classes.topLine}>
         <div>
           <a href="https://lp-noawesome.herokuapp.com/" target="_blank" rel="noreferrer">

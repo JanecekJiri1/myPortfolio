@@ -1,9 +1,13 @@
 import classes from "./ContactPage.module.css";
 import { FaEnvelope, FaFacebookF, FaMobileAlt, FaLinkedinIn } from "react-icons/fa";
-const contactPage = () => {
+
+import { useTranslation } from "react-i18next";
+
+const ContactPage = () => {
+  const { t } = useTranslation();
   return (
     <div className={classes.contactPageStyles}>
-      <h2 className="contactText"> You can conntact me by:</h2>
+      <h2 className="contactText"> {t("contact_")} </h2>
       <ul className="contactList">
         <li>
           <a>
@@ -42,4 +46,4 @@ const contactPage = () => {
   );
 };
 
-export default contactPage;
+export default ContactPage;

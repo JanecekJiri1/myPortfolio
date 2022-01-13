@@ -1,0 +1,34 @@
+{
+  "navigation_about": "About",
+  "navigation_contact": "Contact",
+  "projekts_": "Projects",
+
+  "contact_": "You can conntact me by:",
+
+  "about_h2": "About me",
+  "about_mainText": "Hello, my name is Jirka. For the last year, I have been learning programming to find a job as a front-end developer. At work, I was fascinated by the fact that I can constantly improve myself, learn new things and be able to be my slightly better version every day. I have gone through several courses and I realize that they do not make me a programmer. However, I also know that what I lack in my experience, I try to catch up with my efforts so that I can be considered a valid member of the team.",
+
+  "about_bit_more": "Little bit more",
+  "about_btn": "See more",
+
+  "about_more_h2": "Something more about me",
+  "about_education": "Education",
+  "about_education_name": "2008-2012 SoŠ and SoU Strážnice Clothing, graduated",
+
+  "about_work_experience": "Work experience:",
+  "about_work_text": "Caring for people and children in UK. Which has little to do with programming, but it gave me character qualites like responsibility, punctuality, a positive approach to work, professionalism, consistency.",
+
+  "language_skills": "Language skills",
+  "czech_language": "Czech language",
+  "cs_language_skill": "native speaker",
+
+  "english_language": "English language",
+  "en_language_skill": "advanced",
+
+  "about_hobbies": "Hobbies:",
+  "about_hobbies_text": "Theater, movies - I used to be an actor, music, self-improvement and self-development, reading books, mostly fantasy, sci-fi and I love small attractions that makes you better mood.",
+
+  "i_learning": "I'm learning",
+
+  "btn_hide": " Hide me"
+}

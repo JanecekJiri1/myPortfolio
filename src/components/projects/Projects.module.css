@@ -45,3 +45,12 @@
   transition: all 0.5s;
   transform: scale(1.05);
 }
+
+.ulNavigation img {
+  cursor: pointer;
+  margin: 5px;
+}
+.flag2 {
+  cursor: pointer;
+  margin-left: 5px;
+}
