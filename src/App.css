@@ -2,17 +2,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Tahoma, Poppins-r, Poppins, MetalMania-Reg, Tahoma, sans-serif;
 }
 
 .app {
-  margin: 10vh auto;
+  margin: 3% auto;
   width: 75vw;
-
   max-width: 1920px;
-
   height: auto;
 
-  /* border: 1px solid black; */
   box-shadow: 1px 1px 0 0 rgba(255, 255, 255, 0.952);
   border-radius: 25px;
   background-color: rgba(255, 255, 255, 0.938);

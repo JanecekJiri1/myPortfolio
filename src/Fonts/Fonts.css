@@ -1,0 +1,16 @@
+@font-face {
+  font-family: MetalMania-Reg;
+  src: url(./MetalMania-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  src: url(./Poppins-Light.ttf);
+}
+@font-face {
+  font-family: Poppins-r;
+  src: url(./Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins-b;
+  src: url(./Poppins-Bold.ttf);
+}

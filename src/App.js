@@ -7,9 +7,6 @@ import MainPage from "./pages/MainPage";
 import ProjektsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
 
-import { useTranslation } from "react-i18next";
-import i18next from "i18next";
-
 function App() {
   return (
     <div className="app">
