@@ -111,3 +111,15 @@ a {
     margin: 10px auto;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .leftSideFoto {
+    margin: 0;
+  }
+
+  .myPhotoStyles {
+    width: 320px;
+    /* height: 525px; */
+    border-radius: 0;
+  }
+}
