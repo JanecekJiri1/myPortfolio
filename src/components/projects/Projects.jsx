@@ -18,7 +18,7 @@ const Projects = () => {
               <img className={classes.box} src={LPage} alt="just landing page" />
             </div>
           </a>
-          <a className={classes.gitHub} href="https://github.com/JanecekJiri1/projekt1-land" target="_blank" rel="noreferrer">
+          <a className={classes.gitHub} href="https://github.com/JanecekJiri1/landing-bezAwesome" target="_blank" rel="noreferrer">
             <h3 className={classes.gitOpen}>GitHub code</h3>
           </a>
         </div>
