@@ -1,7 +1,7 @@
 import classes from "./SeeMorePage.module.css";
 import { useTranslation } from "react-i18next";
 
-const SeeMorePage = ({ setHideCv }) => {
+const SeeMorePage = () => {
   const { t } = useTranslation();
   return (
     <div className={classes.seeMorePage}>
@@ -52,9 +52,9 @@ const SeeMorePage = ({ setHideCv }) => {
           </ul>
         </div>
 
-        <a className={classes.btnSeeMore} onClick={() => setHideCv()}>
+        {/* <a className={classes.btnSeeMore} onClick={() => setHideCv()}>
           {t("btn_hide")}
-        </a>
+        </a> */}
       </div>
     </div>
   );

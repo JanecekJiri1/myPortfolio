@@ -1,5 +1,5 @@
 import classes from "./Projects.module.css";
-import LPage from "../../assets/Lp2.png";
+import WPage from "../../assets/Vinarstvi.png";
 import ShoppE from "../../assets/shopp.png";
 import Food from "../../assets/food2a.png";
 
@@ -12,13 +12,13 @@ const Projects = () => {
       <h2>{t("projekts_")}</h2>
       <div className={classes.topLine}>
         <div className={classes.boxies}>
-          <a href="https://lp-noawesome.herokuapp.com/" target="_blank" rel="noreferrer">
-            <h3> Landing page </h3>
+          <a href="https://wine-vajcner.herokuapp.com/" target="_blank" rel="noreferrer">
+            <h3> Wine page </h3>
             <div>
-              <img className={classes.box} src={LPage} alt="just landing page" />
+              <img className={classes.box} src={WPage} alt="Wine page" />
             </div>
           </a>
-          <a className={classes.gitHub} href="https://github.com/JanecekJiri1/landing-bezAwesome" target="_blank" rel="noreferrer">
+          <a className={classes.gitHub} href="https://github.com/JanecekJiri1/vinarstv-R" target="_blank" rel="noreferrer">
             <h3 className={classes.gitOpen}>GitHub code</h3>
           </a>
         </div>
